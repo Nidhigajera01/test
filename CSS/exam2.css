@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.head1 {
+    /* width: 100%; */
+    background-color: #333333;
+    color: azure;
+    padding: 10px 50px;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.head2 {
+    /* width: 100%; */
+    padding: 20px 55px;
+}
+
+.w33 {
+    width: 33.33%;
+}
+
+.w33 ul li a {
+    color: #232323;
+    padding: 15px 20px 15px 0px;
+}
+
+.w33 img {
+    width: 100%;
+    max-width: 143px;
+}
+
+.w33 i {
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.ab {
+    width: 100%;
+}
+
+.body_image {
+    padding: 0px 55px;
+}
+
+.body_image img {
+    width: 100%;
+    max-width: 1410px;
+}
+
+.title {
+    padding: 40px;
+}
+
+.title_head {
+    padding: 15px 0px 35px 0px;
+}
+
+.title_head h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.w1140 {
+    width: 1140px;
+    margin: auto;
+}
+
+.w25 {
+    width: 25%;
+    /* background-color: antiquewhite; */
+}
+
+.row_text h3 a {
+    color: #000;
+}
+
+.footer {
+    background-color: #333333;
+    color: #fff;
+}
+
+.footer .w1140 {
+    padding: 55px 15px 52px;
+}
+
+.mar {
+    margin-bottom: 20px;
+}
+
+.w25 ul li {
+    margin-bottom: 15px;
+}
+
+.email_box input {
+    padding: 12px;
+    border: #fff 2px solid;
+}
+
+.btn {
+    background-color: #232323;
+    border: #fff 2px solid;
+    padding: 10px 3px;
+}
+
+.btn a {
+    padding: 10px;
+}
+
+.btn i {
+    color: #fff;
+}

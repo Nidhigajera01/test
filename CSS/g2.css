@@ -1,0 +1,39 @@
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.just-right {
+    justify-content: end;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-end {
+    justify-content: end;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.just-sp-bt {
+    justify-content: space-between;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}

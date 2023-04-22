@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background-color: #205295;
+    width: 100%;
+    height: 40px;
+}
+
+.w1140 {
+    width: 1140px;
+    margin: auto;
+}
+
+.rel {
+    position: relative;
+}
+
+.w33 {
+    width: 33.33%;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.w33 ul li {
+    list-style: none;
+}
+
+.w33 ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.w33 i {
+    font-size: 20px;
+    color: lightblue;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 20%;
+}
+
+.image img {
+    padding: 10px;
+    width: 100%;
+}
+
+.menu {
+    width: 80%;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left: 30px;
+    padding: 27px 0px;
+}
+
+.mega_menu {
+    width: 100%;
+    position: absolute;
+    background-color: aliceblue;
+    display: none;
+    left: 0px;
+    top: 86px;
+}
+
+.box {
+    width: 25%;
+}
+
+.mega_menu .flex {
+    flex-wrap: wrap;
+}
+
+.box ul li {
+    padding: 5px;
+}
+
+.menu ul li:hover .mega_menu,
+.menu ul li:hover .box2 {
+    display: block;
+}
+
+.box2 {
+    display: none;
+    position: absolute;
+    top: 86px;
+    width: 100%;
+    max-width: 190px;
+}
+
+.box2 ul {
+    padding: 0;
+    background-color: aliceblue;
+    margin-left: 15px;
+}
+
+.box2 li a {
+    font-weight: normal;
+    margin: 0;
+    padding: 8px 15px;
+    display: block;
+}
+
+.slidebar {
+    width: 100%;
+}
+
+.slidebar img {
+    width: 100%;
+}
+
+.labal {
+    text-align: center;
+    padding: 50px;
+}
+
+.labal h4 {
+    display: inline-block;
+    position: relative;
+}
+
+.labal h4::before {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #FFBC06;
+    display: inline-block;
+    position: absolute;
+    left: -35px;
+    top: 10px;
+}
+
+.w_33 {
+    width: calc(33.33%-20px);
+    background-color: bisque;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 70%);
+    overflow: hidden;
+}
+
+.vid video {
+    width: 100%;
+    display: block;
+    max-height: 230px;
+}
+
+.title {
+    background-color: #fff;
+    padding: 15px 10px;
+    font-size: 18px;
+}
+
+.title2 {
+    background-color: #fff;
+    padding: 15px 10px;
+    border-top: #ddd solid 1px;
+}
+
+.title2 .rate i {
+    color: #FFBC06;
+}
+
+.btn a {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 5px;
+    display: block;
+}
+
+.btn2 {
+    padding: 60px;
+    text-align: center;
+}
+
+.btn2 a {
+    background-color: #FFBC06;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.about {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.w60 {
+    width: 70%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    border-radius: 0px 250px 250px 0px;
+    margin-right: -40px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w60 h5 {
+    margin-bottom: 15px;
+}
+
+.w40 img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}
+
+.w60 .btn2 {
+    text-align: left;
+    padding: 30px 0 0 0;
+}
+
+.pad_8 {
+    padding: 8%;
+}
+
+.par1 {
+    width: 100%;
+    position: relative;
+}
+
+.par1::before {
+    content: "";
+    width: 100%;
+    /* height: auto; */
+    background-color: rgba(7, 41, 77, 0.70);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.parallax {
+    width: 100%;
+    height: 250px;
+    background-color: #003366;
+    background-image: url(https://www.cdmi.in/assets/front/images/counter_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.w25 {
+    width: 25%;
+    z-index: 999;
+}
+
+.w50 {
+    width: 50%;
+    padding: 20px;
+}
+
+.par-img1 {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://www.cdmi.in/assets/front/images/counter-icon.png);
+    background-color: darkblue;
+    margin: auto;
+}
+
+.parallax .flex {
+    padding: 60px;
+}
+
+.w50-img {
+    width: 100%;
+    height: 478px;
+    background-image: url(https://www.cdmi.in/assets/front/images/happy-students.jpg);
+    background-size: cover;
+    display: block;
+    margin: auto;
+}
+
+.w50-img img {
+    width: 100%;
+}
+
+.gray-bg {
+    background-color: #F7F7F7;
+}
+
+.gray-bg .w1140 {
+    padding: 40px;
+}
+
+.gal-img {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://www.cdmi.in/assets/front/images/why-choose.png);
+    background-color: #F6475F;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.w-33 {
+    width: calc(33.33% - 20px);
+}
+
+.a-1 {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.head h5 {
+    position: relative;
+    display: inline-block;
+}
+
+.head h5::before {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #ffbc06;
+    display: inline-block;
+    left: -40px;
+    top: 8px;
+    position: absolute;
+}

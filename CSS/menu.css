@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.align_itm {
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+ul li a {
+    text-decoration: none;
+    background-color: cadetblue;
+    margin-right: 15px;
+    width: 180px;
+    height: 50px;
+    display: block;
+    color: rgb(143, 66, 66);
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+ul ul {
+    display: none;
+}
+
+ul ul li {
+    float: none;
+    position: relative;
+}
+
+ul ul li a {
+    font-size: 18px;
+    background-color: rgb(129, 187, 195);
+    color: azure;
+}
+
+ul ul ul {
+    position: absolute;
+    left: 185px;
+    top: 0;
+}
+
+ul ul ul li a {
+    background-color: rgb(73, 165, 146);
+    color: darkblue;
+}
+
+ul ul ul ul ul ul {
+    position: absolute;
+    left: -183px;
+    top: 5px;
+}
+
+ul ul ul ul ul ul li a {
+    background-color: rgb(74, 128, 139);
+    color: darkkhaki;
+}
+
+ul li:hover>ul {
+    display: block;
+}
+
+.a1 ul {
+    position: relative;
+}
+
+.mega_menu {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    background-color: rgb(99, 170, 180);
+    display: none;
+}
+
+.flex {
+    display: flex;
+    column-gap: 10px;
+}
+
+.box {
+    width: 25%;
+    padding: 10px;
+    height: auto;
+    background-color: rgb(129, 187, 195);
+}
+
+.box ul {
+    display: block;
+    font-size: 18px;
+}
+
+.a1 ul li:hover .mega_menu {
+    display: block;
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w-100 {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.w-1140 {
+    width: 1140px;
+    margin: auto;
+
+}
+
+.w-33 {
+    width: calc(33.33% - 30px);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 5px rgb(0 0 0 /80%);
+}
+
+.image img {
+    width: 100%;
+    display: block;
+    max-height: 230px;
+    min-height: 230px;
+}
+
+.text {
+    background-color: #fff;
+    padding: 20px 10px;
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}

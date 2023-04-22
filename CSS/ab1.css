@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* A75D5D
+D3756B
+F0997D
+FFC3A1
+FDA769 */
+
+ul li{
+    list-style: none;
+    position: relative;
+    width: 100px;
+}
+
+ul li a{
+    text-decoration: none;
+    background-color: brown;
+    width: 100px;
+    height: 50px;
+    display: block;
+    color: #FDA769;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+ul ul{
+    position: absolute;
+    left: 100px;
+    display: none;
+    top: 0;
+}
+
+ul ul li{
+    display: block;
+    
+}
+
+ul ul li a{
+    background-color: #A75D5D;
+    margin-bottom: 0%;
+    margin-left: 10px;
+}
+
+ul ul ul {
+    position: absolute;
+}
+ul ul ul li a{
+    background-color: #D3756B;
+    margin-left: 15px;
+}
+ul li:hover > ul{
+    display: block;
+}
